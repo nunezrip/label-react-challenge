@@ -1,0 +1,96 @@
+body {
+	margin: 20px;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+	font-family: sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.creditCard {
+	display: flex;
+	/* flex-direction: column; */
+	align-items: center;
+	justify-content: center;
+	align-self: stretch;
+	margin-top: auto;
+	width: 400px;
+}
+
+.creditCard-outline {
+	width: 400px;
+	height: 200px;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-flow: wrap;
+	border: 5px solid black;
+	border-radius: 15px;
+	background-color: rgb(36, 36, 196);
+}
+
+.creditCard-info {
+	width: 400px;
+	height: 200px;
+	/* margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bankName {
+	font-size: 34px;
+	color: white;
+	display: flex;
+	text-align: right;
+	justify-content: flex-end;
+	justify-self: end;
+}
+
+.cardNumber {
+	font-size: 30px;
+	margin-top: 45px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.validity {
+	font-size: 10px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	justify-content: center;
+}
+.validThru {
+	padding: 0;
+	margin: 0;
+	font-size: 10px;
+	color: white;
+}
+
+.validDate {
+	font-size: 15px;
+	color: white;
+}
+
+.secCode {
+	font-size: 15px;
+	color: white;
+	margin-left: 60px;
+}
+
+.cardHolder-name {
+	font-size: 22px;
+	color: white;
+	margin-top: 20px;
+}

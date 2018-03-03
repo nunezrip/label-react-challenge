@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Envelope from './components/Envelope/Envelope';
+import CreditCard from './components/CreditCard/CreditCard';
 
-ReactDOM.render(<Envelope />, document.getElementById('root'));
+ReactDOM.render(<CreditCard />, document.getElementById('root'));
